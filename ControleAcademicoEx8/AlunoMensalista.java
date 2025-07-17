@@ -1,4 +1,4 @@
-package ControleAcademicoEx8;
+cpackage ControleAcademicoEx8;
 
 public class AlunoMensalista extends Aluno {
     private float valorMensalidade;
@@ -34,6 +34,9 @@ public class AlunoMensalista extends Aluno {
         }
     }
 
+    public double calcularMensalidade() {
+        return this.valorMensalidade;
+    }
 
 }
 
